@@ -8,8 +8,8 @@ FROM debian:jessie
 MAINTAINER Olav Grønås Gjerde <olav@backupbay.com>
 
 # Set the version you want of MoinMoin
-ENV MM_VERSION 1.9.8
-ENV MM_CSUM 4a616d12a03f51787ac996392f9279d0398bfb3b
+ENV MM_VERSION 1.9.9
+ENV MM_CSUM 4397d7760b7ae324d7914ffeb1a9eeb15e09933b61468072acd3c3870351efa4
 
 # Install software
 RUN apt-get update && apt-get install -qqy --no-install-recommends \
